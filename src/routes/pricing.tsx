@@ -127,6 +127,7 @@ const tiers = [
     ],
     highlight: false,
   },
+];
 
 function Pricing() {
   return (
