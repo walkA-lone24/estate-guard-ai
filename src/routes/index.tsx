@@ -7,6 +7,10 @@ import {
   CheckCircle2,
   TrendingUp,
   MapPin,
+  Sparkles,
+  LineChart,
+  Search,
+  FileText,
 } from "lucide-react";
 import { SiteNav, SiteFooter } from "@/components/site/SiteNav";
 
@@ -51,12 +55,40 @@ const modules = [
     desc: "Predict generator, borehole and sewage failures before they happen. 24/7 monitoring.",
     href: "/pricing",
   },
+  {
+    icon: Sparkles,
+    name: "LeadPilot AI",
+    tag: "AI gen & nurturing",
+    desc: "Generate qualified buyer leads and nurture them with AI follow-ups across WhatsApp, SMS and email.",
+    href: "/pricing",
+  },
+  {
+    icon: LineChart,
+    name: "MarketLens AI",
+    tag: "Predictive analytics",
+    desc: "Forecast price trends, rental yields and demand hotspots across Nigerian micro-markets.",
+    href: "/pricing",
+  },
+  {
+    icon: Search,
+    name: "FindMyHome AI",
+    tag: "AI property search",
+    desc: "Natural-language property search. 'A 3-bed in Lekki under ₦80M near a good school' — done.",
+    href: "/pricing",
+  },
+  {
+    icon: FileText,
+    name: "DocuFlow AI",
+    tag: "Document automation",
+    desc: "Auto-draft offers, deeds, tenancies and C of Os. OCR, e-sign and secure vault included.",
+    href: "/pricing",
+  },
 ];
 
 const stats = [
   { k: "28M+", v: "Housing Deficit" },
   { k: "₦9.6T+", v: "Sector Value" },
-  { k: "3", v: "AI Modules" },
+  { k: "7", v: "AI Modules" },
   { k: "36", v: "States Coverage" },
 ];
 
